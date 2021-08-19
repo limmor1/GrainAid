@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F647A50D1D77577C005F2362 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F647A50C1D77577C005F2362 /* Carbon.framework */; };
+		F647A50F1D775787005F2362 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F647A50E1D775787005F2362 /* CoreAudio.framework */; };
+		F647A5111D775790005F2362 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F647A5101D775790005F2362 /* AudioToolbox.framework */; };
+		F647A5131D775793005F2362 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F647A5121D775793005F2362 /* AudioUnit.framework */; };
+		F647A5181D7757A4005F2362 /* libsndfile.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F647A5141D7757A4005F2362 /* libsndfile.1.dylib */; };
+		F647A5191D7757A4005F2362 /* sndfile.h in Frameworks */ = {isa = PBXBuildFile; fileRef = F647A5151D7757A4005F2362 /* sndfile.h */; };
+		F647A51A1D7757A4005F2362 /* portaudio.h in Frameworks */ = {isa = PBXBuildFile; fileRef = F647A5161D7757A4005F2362 /* portaudio.h */; };
+		F647A51B1D7757A4005F2362 /* libportaudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F647A5171D7757A4005F2362 /* libportaudio.a */; };
+		F676D8EF1D7755A9009A7515 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F676D8EE1D7755A9009A7515 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F676D8E91D7755A9009A7515 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F647A50B1D775757005F2362 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		F647A50C1D77577C005F2362 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		F647A50E1D775787005F2362 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F647A5101D775790005F2362 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F647A5121D775793005F2362 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		F647A5141D7757A4005F2362 /* libsndfile.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsndfile.1.dylib; path = lib/libsndfile.1.dylib; sourceTree = "<group>"; };
+		F647A5151D7757A4005F2362 /* sndfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sndfile.h; path = lib/sndfile.h; sourceTree = "<group>"; };
+		F647A5161D7757A4005F2362 /* portaudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = portaudio.h; path = lib/portaudio.h; sourceTree = "<group>"; };
+		F647A5171D7757A4005F2362 /* libportaudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libportaudio.a; path = lib/libportaudio.a; sourceTree = "<group>"; };
+		F676D8EB1D7755A9009A7515 /* Granulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Granulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F676D8EE1D7755A9009A7515 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F676D8E81D7755A9009A7515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F647A5181D7757A4005F2362 /* libsndfile.1.dylib in Frameworks */,
+				F647A5191D7757A4005F2362 /* sndfile.h in Frameworks */,
+				F647A51A1D7757A4005F2362 /* portaudio.h in Frameworks */,
+				F647A51B1D7757A4005F2362 /* libportaudio.a in Frameworks */,
+				F647A5131D775793005F2362 /* AudioUnit.framework in Frameworks */,
+				F647A5111D775790005F2362 /* AudioToolbox.framework in Frameworks */,
+				F647A50F1D775787005F2362 /* CoreAudio.framework in Frameworks */,
+				F647A50D1D77577C005F2362 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F676D8E21D7755A9009A7515 = {
+			isa = PBXGroup;
+			children = (
+				F647A5141D7757A4005F2362 /* libsndfile.1.dylib */,
+				F647A5151D7757A4005F2362 /* sndfile.h */,
+				F647A5161D7757A4005F2362 /* portaudio.h */,
+				F647A5171D7757A4005F2362 /* libportaudio.a */,
+				F647A5121D775793005F2362 /* AudioUnit.framework */,
+				F647A5101D775790005F2362 /* AudioToolbox.framework */,
+				F647A50E1D775787005F2362 /* CoreAudio.framework */,
+				F647A50C1D77577C005F2362 /* Carbon.framework */,
+				F676D8ED1D7755A9009A7515 /* Granulator */,
+				F676D8EC1D7755A9009A7515 /* Products */,
+				F647A50B1D775757005F2362 /* lib */,
+			);
+			sourceTree = "<group>";
+		};
+		F676D8EC1D7755A9009A7515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F676D8EB1D7755A9009A7515 /* Granulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F676D8ED1D7755A9009A7515 /* Granulator */ = {
+			isa = PBXGroup;
+			children = (
+				F676D8EE1D7755A9009A7515 /* main.c */,
+			);
+			path = Granulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F676D8EA1D7755A9009A7515 /* Granulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F676D8F21D7755A9009A7515 /* Build configuration list for PBXNativeTarget "Granulator" */;
+			buildPhases = (
+				F676D8E71D7755A9009A7515 /* Sources */,
+				F676D8E81D7755A9009A7515 /* Frameworks */,
+				F676D8E91D7755A9009A7515 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Granulator;
+			productName = Granulator;
+			productReference = F676D8EB1D7755A9009A7515 /* Granulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F676D8E31D7755A9009A7515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Julius Raskevicius";
+				TargetAttributes = {
+					F676D8EA1D7755A9009A7515 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F676D8E61D7755A9009A7515 /* Build configuration list for PBXProject "Granulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F676D8E21D7755A9009A7515;
+			productRefGroup = F676D8EC1D7755A9009A7515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F676D8EA1D7755A9009A7515 /* Granulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F676D8E71D7755A9009A7515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F676D8EF1D7755A9009A7515 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F676D8F01D7755A9009A7515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F676D8F11D7755A9009A7515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F676D8F31D7755A9009A7515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F676D8F41D7755A9009A7515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F676D8E61D7755A9009A7515 /* Build configuration list for PBXProject "Granulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F676D8F01D7755A9009A7515 /* Debug */,
+				F676D8F11D7755A9009A7515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F676D8F21D7755A9009A7515 /* Build configuration list for PBXNativeTarget "Granulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F676D8F31D7755A9009A7515 /* Debug */,
+				F676D8F41D7755A9009A7515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F676D8E31D7755A9009A7515 /* Project object */;
+}
