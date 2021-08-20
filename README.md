@@ -1,9 +1,9 @@
 # GrainAid
-    * Polyphonic granular synthesis engine. Takes a sound file as an input and produces a granulated audio output(see static parameters below)
-    * Works well as a granular stretcher (see /examples for audio output)
-    * Written in C with PortAudio and libsndfile
+ * Polyphonic granular synthesis engine. Takes a sound file as an input and produces a granulated audio output(see static parameters below)
+ * Works well as a granular stretcher (see /examples for audio output)
+ * Written in C with PortAudio and libsndfile
 
-## Building:
+## Building
     Linux:
     1) Install dependencies:
        # libsndfile - library for reading and writing sound files
@@ -19,12 +19,12 @@
 
 ## Usage
 Start from the command line. Compiled binary is located in /bin (for Linux). 
-
 ATTENTION: There are no checks, if you input a parameter that is not valid, expect harsh noise.
-Parameters:
-        filename - string, path to the input file (has to be stereo file)
-        start_sample - offset for sample start in seconds
-        amp_factor - try adjusting this, if the sound is too quiet or loud (approx. 1/2 kLayerNumber, so in the range of 50-60)
+
+## Parameters:
+* filename - string, path to the input file (has to be stereo file)
+* start_sample - offset for sample start in seconds
+* amp_factor - try adjusting this, if the sound is too quiet or loud (approx. 1/2 kLayerNumber, so in the range of 50-60)
 
 Examples:
 ```
